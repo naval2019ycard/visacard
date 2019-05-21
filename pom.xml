@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>spring-releases</id>
+      <name>spring-releases</name>
+      <url>http://ec2-52-66-124-33.ap-south-1.compute.amazonaws.com:8081/nexus</url>
+    </repository>
+    <snapshotRepository>
+      <id>spring-snapshots</id>
+      <name>spring-snapshots</name>
+      <url>http://ec2-52-66-124-33.ap-south-1.compute.amazonaws.com:8081/nexus</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
