@@ -27,4 +27,8 @@
       <url>http://ec2-52-66-124-33.ap-south-1.compute.amazonaws.com:8081/nexus</url>
     </snapshotRepository>
   </distributionManagement>
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
 </project>
